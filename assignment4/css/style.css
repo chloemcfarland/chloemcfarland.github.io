@@ -1,0 +1,54 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+#container {
+	border:1px solid black;
+    width:1000px;
+    margin:auto;
+    position:relative;
+}
+
+span.zoe {
+    
+    color:#ff0000;
+    font-size:300px;
+    position:absolute;
+    right: 0px;
+    bottom:0px;
+    z-index:2;
+    opacity: .5;
+    rotate:45deg;
+    text-shadow: 100px 100px  25px blue, 200px 200px yellow;
+    
+    
+    
+}
+
+span.perio {
+    font-size:50em;
+    position:absolute;
+    right:0px;
+    bottom:200px;
+    
+}
+
+
