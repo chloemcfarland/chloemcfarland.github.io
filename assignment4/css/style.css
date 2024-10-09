@@ -12,23 +12,109 @@ html {
 }
 
 
+header{
+    font-size:1em;
+    line-height: 1em;
+	color:#300085;
+    position: absolute;
+    left:-125px;
 
+   
+}
 
 body {
-	
-	
+	font-family:'Gotu', arial, sans-serif;
+	background:#8854e3;
 }
 
 
 #container {
-	border:1px solid black;
+	/*border:1px solid black;*/
     width:1000px;
+    height:1250px;
     margin:auto;
     position:relative;
 }
 
-span.zoe {
+span.thats{
+    font-size:5em;
+    position:absolute;
+    left:0px;
+    top:125px;
+    color:#c0afde;    
+}
+span.no{
+    font-size:9em;
+    position:absolute;
+    left:200px;
+    top:200px;
+    font-weight:bold;
+    color:#887b9e;
+}
+span.moon{
+    font-size:15em;
+    color:#aba9b0;
+    left:300px;
+    top:370px;
+    position:absolute;
+    font-weight:bolder;
+    text-shadow: 40px 0px 50px black;
+}
+span.per{
+    font-family:times new roman;
+    font-size:100em;
+    color:#777778;
+    position:absolute;
+    top:-250px;
+    left:1000px;
+    text-shadow: 40px 0px 50px black;
     
+}
+span.itsa{
+    font-size:9em;
+    color:#c0afde;
+    position:absolute;
+    top:600px;
+    left:-200px;
+}
+
+span.space{
+    font-size:18em;
+    color:#4c02cc;
+    position:absolute;
+    top:800px;
+    left:0px;
+    font-weight:bolder;
+    rotate:2deg;
+    text-shadow:20px 0px 5px #22015c;
+    
+}
+span.station{
+     font-size:18em;
+    color:#4c02cc;
+    position:absolute;
+    top:1000px;
+    left:0px;
+    font-weight:bolder;
+    rotate:-2deg;
+    text-shadow:20px 0px 5px #22015c;
+}
+span.quote{ 
+font-size:3em;
+    color:#300085;
+    position:absolute;
+    top:1175px;
+    right:100px;
+    
+}
+footer{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+
+}
+/*span.zoe {
+    font-family:'Gotu', arial, sans-serif;
     color:#ff0000;
     font-size:300px;
     position:absolute;
@@ -49,6 +135,6 @@ span.perio {
     right:0px;
     bottom:200px;
     
-}
+}*/
 
 
