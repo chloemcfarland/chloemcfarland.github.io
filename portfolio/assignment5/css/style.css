@@ -1,0 +1,210 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 2em;
+}
+
+
+
+
+body {
+	background:#e2ff61;
+	
+}
+
+
+#container {
+	width:1000px;
+    /*border: 1px solid black;*/
+    margin:auto;
+    height:800px;
+    position:relative;
+}
+div#circle1 {
+    width:100px;
+        height:100px;
+    border-radius:50%;
+    background:#da61ff;
+    transition:all 3s;
+    position:absolute;
+    right:300px;
+    top:400px;
+
+    
+}
+div#circle1:hover{
+    background:#ef61ff;
+    width:300px;
+        height:150px;
+    border-radius:300px/150px;
+    transform: rotate(-160deg);
+}
+
+ div#star-five {
+      margin: 50px 0;
+      position: bottom;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+     transition:3s;
+    }
+    div#star-five:before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+        transition:3s;
+    }
+    div#star-five:after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+        transition:2s;
+    }
+div#star-five:hover {
+    transform:rotate(720deg) scale(3);
+}
+  
+div#parallelogram {
+    position: absolute;
+    right:75px;
+    bottom: 40px;
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background:#8b61ff;
+    transition: 1s;
+    }
+div#parallelogram:hover{
+    width: 800px;
+      height: 100px;
+      background:#61b8ff;
+    transform:skew(-20deg);
+}
+div#parallelogram2 {
+    position: absolute;
+    left:75px;
+    top: 200px;
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background:#8b61ff;
+    transition: 1s;
+    }
+div#parallelogram2:hover{
+    width: 800px;
+      height: 100px;
+      background:#61b8ff;
+    transform:skew(-20deg);
+}
+
+div#heart{ 
+position:absolute;
+    left:100px;
+    bottom:200px;
+    height:100px;
+    width:100px;
+    background-color:#ff406c;
+    transform:rotate(-45deg);
+    transition:all .75s;
+    
+}
+div#heart:before,
+div#heart:after{
+    content:"";
+    height: 100px;
+    width: 100px;
+    background-color:#ff406c;
+;
+    border-radius: 50%;
+    position: absolute;
+}
+div#heart:before {
+    top: -50px;
+    left: 0px;
+}
+
+div#heart:after {
+    left: 50px;
+    top: 0px;
+}
+div#heart:hover{ 
+transform:scale(2);
+    opacity: 50%;
+}
+    
+div#lines{
+    width:10px;
+    height:900px;
+    background:aqua;   
+    position:absolute;
+    right:300px;
+    top:300px;
+}
+/*div#leo{ 
+
+background: lightgreen;
+width: 200px;
+ height: 100px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    transition:all 1.5s;
+}
+
+div#leo:hover{ 
+    background:red;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+
+}
+
+div#omar{ 
+background:black;
+    width:100px;
+    height:130px;
+    position:absolute;
+    top:300px;
+    left:200px;
+    color:gold;
+    font-size:2em;
+    transition:all 2s;
+    
+}
+
+
+div#omar:hover{
+    
+/*font-size:4em;
+    transform:scale(2) rotate(720deg);
+}
+*/

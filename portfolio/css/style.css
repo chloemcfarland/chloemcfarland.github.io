@@ -15,7 +15,7 @@ html {
 
 
 body {
-	font-family: Palatino,sans-serif;
+	font-family: 'Lilita One',Palatino,sans-serif;
     background:#1c72fc;
     color:#c9fdff;
     margin: 40px;
@@ -28,6 +28,7 @@ body {
     width:90%;
     max-width: 700px;
     margin:auto;
+    text-align: center;
 }
 
 
@@ -51,11 +52,14 @@ color:navy;
     display:inline-block;
     width:150px;
     text-align:center;
-    border-radius:4px;
+    border-radius:5px;
+    transition: border-radius .75s;
+    
 }
 
 nav a:hover {
     background:#c9fdff;
+    border-radius: 1px
     
 
 }
@@ -74,7 +78,7 @@ p.special {
 }
 
 figure{ 
-    margin-left:200px;
+    
 
 }
 
