@@ -161,7 +161,14 @@ transform:scale(2);
     opacity: 50%;
 }
     
-
+div#lines{
+    width:10px;
+    height:900px;
+    background:aqua;   
+    position:absolute;
+    right:300px;
+    top:300px;
+}
 /*div#leo{ 
 
 background: lightgreen;
