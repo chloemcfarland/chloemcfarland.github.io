@@ -25,10 +25,11 @@ body {
 
 #container {
 	/*border:1px solid #cce0ff;*/
-    width:90%;
-    max-width: 700px;
+   /* width:90%;
+    max-width: 700px;*/
     margin:auto;
     text-align: center;
+    padding:15px;
 }
 
 
@@ -83,3 +84,21 @@ figure{
 }
 
 
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+    body{
+        background:#c9fdff;
+    }
+    
+    #container{ 
+    width:700px;
+        background:#1c72fc;
+    
+    
+    }
+
+} /* closes 1024px+ */

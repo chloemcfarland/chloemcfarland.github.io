@@ -51,8 +51,12 @@
       </main>
 
       <footer> 
-      <p>&#169;CHLOE MCFARLAND 2024</p>
+      <p>&#169;CHLOE MCFARLAND <span id="year"> </span></p>
       </footer>
+      
+      <script> 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
 
   </div><!-- close "container" -->

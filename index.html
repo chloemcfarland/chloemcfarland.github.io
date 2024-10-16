@@ -57,16 +57,41 @@
           <h1><!-- hello --></h1>
           <p class=special> <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus orci ac massa placerat, id dictum dui facilisis. Duis a aliquam urna, id molestie purus. Sed auctor, turpis sit amet ornare finibus, arcu eros vestibulum erat, vitae vestibulum dui felis quis tortor. Aliquam rhoncus dapibus magna nec auctor. Etiam sodales efficitur elit non maximus. Quisque eget feugiat felis. Curabitur vel dolor pharetra, molestie dui at, dictum odio. Proin porttitor laoreet odio sed placerat.--></p>
               
-              <p> &#9734;&#9734;&#9734;&#9734;&#9734; </p>
+              <p> &#9734; &#9734; &#9734; &#9734; &#9734; </p>
 
           <p><!--In malesuada mauris eu risus mollis efficitur. Proin nunc augue, fermentum sit amet magna ut, consequat viverra ligula. Sed mattis purus lobortis, convallis risus quis, venenatis justo. Quisque blandit, eros ac sollicitudin imperdiet, enim felis blandit urna, eget ornare diam metus ac ex. Quisque sit amet arcu sed odio pharetra bibendum. Duis et nulla laoreet tellus viverra sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ante sollicitudin, tempus ante vel, gravida elit. Nullam pharetra elementum justo, et dictum lacus.--></p>
 
 
       </main>
 
+    <!--  <script> 
+      
+        //document.write("welcome to the first day of winter!!!!!");
+          
+          function batman(){
+          alert("welcome to the first day of winter!!!!!");
+          }//closalert bos function
+          
+          function changeBg(){
+              document.body.style.background = "#f6ffc9";
+          }//close vackground changing function
+          
+      </script>
+      
+      <button onclick="batman()"> 
+      Here is a message
+      </button>
+      <button onclick="changeBg()"> Redecorate!
+      </button>-->
+      
       <footer> 
-      <p>&#169;CHLOE MCFARLAND 2024</p>
+      <p>&#169;CHLOE MCFARLAND <span id="year"> </span></p>
       </footer>
+      
+      <script> 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+      
 
 
   </div><!-- close "container" -->
