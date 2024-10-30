@@ -1,0 +1,104 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: 'Lilita One',Palatino,sans-serif;
+    background:#1c72fc;
+    color:#c9fdff;
+    margin: 40px;
+	
+}
+
+
+#container {
+	/*border:1px solid #cce0ff;*/
+   /* width:90%;
+    max-width: 700px;*/
+    margin:auto;
+    text-align: center;
+    padding:15px;
+}
+
+
+
+nav ul { 
+    list-style:none;
+    padding-left: 0px;
+    
+}
+
+nav.horizontal li {
+    display:inline;
+}
+
+nav a { 
+color:navy;
+    text-decoration:none;
+    background:#b5e0ff;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    width:150px;
+    text-align:center;
+    border-radius:5px;
+    transition: border-radius .75s;
+    
+}
+
+nav a:hover {
+    background:#c9fdff;
+    border-radius: 1px
+    
+
+}
+
+h1 {text-align: center}
+
+p.special { 
+
+    font-size: 0.8em;
+    line-height: 2.4em;
+    word-spacing:8px;
+    letter-spacing: 3px;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+figure{ 
+    
+
+}
+
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+    body{
+        background:#c9fdff;
+    }
+    
+    #container{ 
+    width:700px;
+        background:#1c72fc;
+    
+    
+    }
+
+} /* closes 1024px+ */
