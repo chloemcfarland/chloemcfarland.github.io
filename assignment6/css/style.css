@@ -1,0 +1,152 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1e;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+     background: url(../img/treeinwoods.jpg)no-repeat fixed center;
+        background-size:cover;
+    color:#013804;
+    font-family:Titillium web, serif;
+	
+}
+header, footer{ 
+    padding:1em;
+
+    color:#a9ba86;
+}
+h1{ font-family: Bebas Neue, sans-serif;
+font-size: 2em;
+} 
+
+
+
+
+#container {
+	
+}
+
+section {
+    border:3.5px solid #013804;
+    padding: 15px;
+    margin-bottom: 3em;
+    background:#dbf0af;
+    opacity:85%
+}
+section header{ 
+    background:#dbf0af;
+    opacity:85%
+    color: #013804;
+}
+section h1{ 
+
+font-size 1.5em;
+color:#013804;}
+
+
+    
+
+/*.mobile-only{
+    
+    
+}
+
+.desktop-only{
+    
+    display:none;
+}*/
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+body{
+        background:#aaf2f2 url(../img/northforkyard.jpeg)no-repeat fixed center;
+        background-size:cover;
+    }	
+    
+    #container{
+        width:700px;
+        margin:auto;
+    }
+	section#other
+    { background: #fff691;
+        opacity:85%;
+    }
+    
+    section#mine{ 
+        background: #fff691;
+        opacity:85%;
+    }
+    section#mine h1{
+    color:#013804;
+       
+    }
+    header, footer{
+        background:none;
+    }
+    
+    #container>header h1{
+        color:#013804;
+        font-size: 2.75em;
+    }
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+    #container{
+        width:1000px;
+    }
+    section#other{
+        float: left;
+        width:40%;
+        
+    }
+    section#mine{
+        float:right;
+        width:40%;
+    }
+	
+    footer{
+        clear:both;
+    }
+  /*  .mobile-only{
+    display:none;
+    
+}
+
+.desktop-only{
+    display:block;
+    }*/
+	
+} /* closes 1024px+ */
+
+
+
