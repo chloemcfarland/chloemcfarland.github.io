@@ -1,0 +1,87 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family:Sour Gummy, sans-serif;
+    background:#cef5d0;
+    color:#9865eb;
+	
+}
+
+
+#container {
+    position:relative;
+    width:800px;
+    text-align: center;
+	
+}
+
+section#flower{
+    
+    border:none;
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:50px;
+    top:140px;
+    text-align: center;
+    color:white;
+}
+
+section#trees{
+    
+   border:none;
+    width:400px;
+    height:300px;
+    position:absolute;
+    left:600px;
+    top:100px;
+    text-align: center;
+    color:#feffab;
+}
+
+section#river{
+    
+   border:none;
+    width:400px;
+    height:500px;
+   position:absolute;
+    left:-300px;
+    top:450px;
+    text-align: center;
+    color:#c7fcff;
+}
+
+img#flowerpic{
+    position: absolute;
+    width:250px;
+    left:70px;
+    top:150px;
+}
+
+img#treespic{
+    position: absolute;
+    width:400px;
+    left:600px;
+    top:100px;
+}
+
+img#riverpic{
+    position: absolute;
+    width:250px;
+    left:375px;
+    top:400px;
+}

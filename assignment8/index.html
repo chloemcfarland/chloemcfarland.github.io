@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Assignment 8-jQuery</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>Assignment 8 : JQuery</h1>
+<h2>&#9880&#9752Explore the Garden&#9752&#9880</h2>
+</header>
+
+<main>
+
+<p>Navigate through the Garden to reveal its secrets!!</p>
+     
+    <img id="flowerpic" src="img/000063740027.jpg"000063740027.jpg> 
+    <img id="treespic" src="img/000063760006.jpg"000063760006.jpg> 
+    <img id="riverpic" src="img/000063730034.jpg"000063730034.jpg> 
+
+ <section id="flower">
+        <header> 
+        <h1>The Flower</h1>
+        </header>
+    <p> "If you root yourself 
+        in love <br>
+        and kindness, <br>
+        your heart will
+        always bloom."<br>
+        -Alexandra Vasiliu
+     </p>
+     
+</section>
+    
+    <section id="trees">
+        <header> 
+        <h1>The Forest</h1>
+        </header>
+    <p> "The forest is the town of trees <br>
+        Where they live quite at their ease,<br>
+        With their neighbors at their side <br>
+        Just as we in cities wide."<br>
+        -Annette Wynne
+     </p>
+        
+  <section id="river">
+        <header> 
+        <h1>The River</h1>
+        </header>
+    <p> "The river rushes <br>
+        to greet the trees<br>
+        as they gather together<br>
+        in the moonlight,<br>
+        their leaves dressed<br>
+        in slivers of silver."<br>
+        -Christy Ann Martine
+     </p>
+     
+</section>
+
+    
+
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+  
+ <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+$('section#flower').hide();
+    $('section#trees').hide();
+    $('section#river').hide();
+    
+$(document).ready(function() {
+
+/*$('button').click(function(){
+    $('p#hidden').slideToggle();
+    
+});//close click function*/
+    
+    $('img#flowerpic').mouseover(function(){
+        $('section#flower').slideToggle();
+    })//close click function
+      
+      $('img#treespic').mouseover(function(){
+        $('section#trees').slideToggle();
+    })//close click function
+    
+      $('img#riverpic').mouseover(function(){
+        $('section#river').slideToggle();
+    })//close click function
+      
+      
+  }); //close .ready()
+</script>
+    
+</body>
+	
+</html> 
