@@ -1,0 +1,158 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    color:#BE1E2D;
+    
+    
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+main{
+    text-align: left;
+}
+header{
+   text-align:center;
+}
+
+body {
+	font-family: 'Roboto',sans-serif;
+   background: url(blue.jpeg) fixed no-repeat center;
+    background-size:cover;
+    margin: 40px;
+
+	
+}
+.center{
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+figcaption{ 
+font-size: .5em;
+}
+
+footer{
+    
+    font-size: .75em;
+}
+
+
+#container {
+	border:2px solid #BE1E2D;
+    background: white;
+    max-width: 700px;
+    margin:auto;
+    text-align: center;
+    padding:15px;
+    border:2px #BE1E2D;
+}
+
+
+
+nav ul { 
+    list-style:none;
+    padding-left: 0px;
+    
+}
+
+
+
+nav.horizontal li {
+    display:inline;
+}
+
+nav a.horizontal { 
+color:#00AEEF;
+    text-decoration:none;
+    background:#2E3192;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    width:150px;
+    text-align:center;
+    border-radius:5px;
+    transition: border-radius .75s;
+    
+}
+
+nav a.horizontal:hover {
+    background:#5c5e99;
+    border-radius: 1px;
+    
+
+}
+    
+
+
+nav a.announce { 
+color:#00AEEF;
+    background: white;
+    text-decoration:none;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    text-align:center;
+    border-radius:5px;
+    transition: border-radius .75s;}
+nav a.announce:hover{ 
+text-decoration: underline;}
+
+nav a.support {
+color:#00AEEF;
+    background: #BE1E2D;
+    text-decoration:thick;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    text-align:center;
+    border-radius:5px;
+    transition: border-radius .75s;}
+nav a.support:hover{ 
+font-size: 2em;}
+
+nav a.click{
+    color:#BE1E2D;
+    font-size:.5em;
+}
+
+h1 {text-align: center;
+line-height:1em;
+}
+
+
+
+
+figure{ 
+    
+
+}
+
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+    body{ 
+    background: url(ocean.jpeg) fixed no-repeat center;
+    background-size:cover;
+    margin: 40px;
+    } 
+    
+   
+    
+    
+  
+
+} /* closes 1024px+ */
